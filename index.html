@@ -1,149 +1,98 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grupo Sar�n | Agrupación Musical</title>
-    <meta name="description" content="🎤 4 Voces en Armonía · Agrupación musical juvenil de Isla de Margarita, Venezuela. Contrataciones y Colaboraciones disponibles.">
-
-    <!-- Open Graph (WhatsApp, Telegram, Facebook) -->
+    <title>Grupo Saron | Agrupacion Musical</title>
+    <meta name="description" content="4 Voces en Armonia. Agrupacion musical juvenil de Isla de Margarita, Venezuela.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://grupo-saron.vercel.app/">
-    <meta property="og:title" content="Grupo Sar�n 🎵">
-    <meta property="og:description" content="🎤 4 Voces en Armonía · Isla de Margarita, Venezuela 🇻🇪 · Contrataciones y Colaboraciones disponibles.">
+    <meta property="og:title" content="Grupo Saron">
+    <meta property="og:description" content="4 Voces en Armonia - Isla de Margarita, Venezuela">
     <meta property="og:image" content="https://grupo-saron.vercel.app/assets/og-preview.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:type" content="image/jpeg">
-    <meta property="og:locale" content="es_VE">
-
-    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:url" content="https://grupo-saron.vercel.app/">
-    <meta name="twitter:title" content="Grupo Sar�n 🎵">
-    <meta name="twitter:description" content="🎤 4 Voces en Armonía · Isla de Margarita, Venezuela 🇻🇪">
+    <meta name="twitter:title" content="Grupo Saron">
     <meta name="twitter:image" content="https://grupo-saron.vercel.app/assets/og-preview.jpg">
-
-    <!-- Favicon -->
     <link rel="icon" type="image/png" href="assets/logo.png">
     <link rel="apple-touch-icon" href="assets/logo.png">
-
-    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
-
-    <!-- Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <!-- Animated background notes -->
     <div class="bg-notes" aria-hidden="true">
-        <span>♪</span><span>♫</span><span>♩</span><span>♬</span>
-        <span>♪</span><span>♫</span><span>♩</span><span>♬</span>
-        <span>♪</span><span>♫</span>
+        <span>&#9834;</span><span>&#9835;</span><span>&#9833;</span><span>&#9836;</span>
+        <span>&#9834;</span><span>&#9835;</span><span>&#9833;</span><span>&#9836;</span>
+        <span>&#9834;</span><span>&#9835;</span>
     </div>
-
     <div class="page-wrapper">
         <div class="container">
-
-            <!-- Share Button -->
             <button class="share-btn" id="share-btn" aria-label="Compartir perfil">
                 <i class="fa-solid fa-arrow-up-from-bracket"></i>
             </button>
-
-            <!-- Profile Header -->
             <header class="profile-header">
                 <div class="avatar-ring">
-                    <img src="assets/logo.png" alt="Grupo Sar�n" class="avatar" id="avatar-img">
+                    <img src="assets/logo.png" alt="Grupo Sar&#243;n" class="avatar" id="avatar-img">
                 </div>
-                <h1 class="group-name">Grupo Sar�n</h1>
+                <h1 class="group-name">Grupo Sar&#243;n</h1>
                 <p class="group-handle">@gruposaron_4</p>
                 <p class="group-bio">
-                    🎤4 𝑉𝑜𝑐𝑒𝑠 𝑒𝑛 𝐴𝑟𝑚𝑜𝑛í𝑎 ✨<br>
-                    🎶 𝑆í𝑔𝑢𝑒𝑛𝑜𝑠 𝑒𝑛 𝑁𝑢𝑒𝑠𝑡𝑟𝑎 𝐴𝑣𝑒𝑛𝑡𝑢𝑟𝑎 𝑀𝑢𝑠𝑖𝑐𝑎𝑙🎵<br>
-                    🏝️𝐼𝑠𝑙𝑎 𝑑𝑒 𝑀𝑎𝑟𝑔𝑎𝑟𝑖𝑡𝑎, 𝑉𝑒𝑛𝑒𝑧𝑢𝑒𝑙𝑎 🇻🇪
+                    &#127908;4 𝑉𝑜𝑐𝑒𝑠 𝑒𝑛 𝐴𝑟𝑚𝑜𝑛&#237;𝑎 &#10024;<br>
+                    &#127926; 𝑆&#237;𝑔𝑢𝑒𝑛𝑜𝑠 𝑒𝑛 𝑁𝑢𝑒𝑠𝑡𝑟𝑎 𝐴𝑣𝑒𝑛𝑡𝑢𝑟𝑎 𝑀𝑢𝑠𝑖𝑐𝑎𝑙&#127925;<br>
+                    &#127965;&#65039;𝐼𝑠𝑙𝑎 𝑑𝑒 𝑀𝑎𝑟𝑔𝑎𝑟𝑖𝑡𝑎, 𝑉𝑒𝑛𝑒𝑧𝑢𝑒𝑙𝑎 &#127483;&#127466;
                 </p>
-
-                <!-- Social Icons Row -->
                 <div class="social-row">
                     <a href="https://www.instagram.com/gruposaron_4?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="social-icon instagram" aria-label="Instagram">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="https://wa.me/584265809270?text=Hola%20Grupo%20Saron%2C%20me%20gustar%C3%ADa%20obtener%20informaci%C3%B3n%20sobre%20contrataciones%20%F0%9F%8E%B5" target="_blank" class="social-icon whatsapp" aria-label="WhatsApp">
+                    <a href="https://wa.me/584265809270?text=Hola%20Grupo%20Sar%C3%B3n" target="_blank" class="social-icon whatsapp" aria-label="WhatsApp">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
                 </div>
             </header>
-
-            <!-- Links -->
             <main class="links-section">
-
-                <!-- Contrataciones -->
-                <a href="https://wa.me/584265809270?text=Hola%20Grupo%20Saron%2C%20me%20gustar%C3%ADa%20consultar%20sobre%20disponibilidad%20y%20contrataci%C3%B3n%20para%20un%20evento%20%F0%9F%8E%B5%F0%9F%99%8F"
-                    target="_blank" class="link-btn highlight-btn" id="btn-booking">
+                <a href="https://wa.me/584265809270?text=Hola%20Grupo%20Sar%C3%B3n%2C%20me%20gustar%C3%ADa%20consultar%20sobre%20contrataci%C3%B3n%20para%20un%20evento%20%F0%9F%8E%B5" target="_blank" class="link-btn highlight-btn" id="btn-booking">
                     <div class="btn-icon"><i class="fa-solid fa-calendar-check"></i></div>
                     <span class="btn-text">Contrataciones</span>
                     <i class="fa-solid fa-chevron-right btn-arrow"></i>
                 </a>
-
-                <!-- Colaboraciones -->
-                <a href="https://wa.me/584265809270?text=Hola%20Grupo%20Saron%2C%20me%20gustar%C3%ADa%20proponer%20una%20colaboraci%C3%B3n%20musical%20%F0%9F%8E%B6%E2%9C%A8"
-                    target="_blank" class="link-btn" id="btn-colaboraciones">
+                <a href="https://wa.me/584265809270?text=Hola%20Grupo%20Sar%C3%B3n%2C%20me%20gustar%C3%ADa%20proponer%20una%20colaboraci%C3%B3n%20musical%20%F0%9F%8E%B6" target="_blank" class="link-btn" id="btn-colaboraciones">
                     <div class="btn-icon"><i class="fa-solid fa-handshake"></i></div>
                     <span class="btn-text">Colaboraciones</span>
                     <i class="fa-solid fa-chevron-right btn-arrow"></i>
                 </a>
-
-                <!-- Instagram -->
-                <a href="https://www.instagram.com/gruposaron_4?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-                    target="_blank" class="link-btn" id="btn-instagram">
+                <a href="https://www.instagram.com/gruposaron_4?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="link-btn" id="btn-instagram">
                     <div class="btn-icon ig-icon"><i class="fa-brands fa-instagram"></i></div>
-                    <span class="btn-text">Síguenos en Instagram</span>
+                    <span class="btn-text">S&#237;guenos en Instagram</span>
                     <i class="fa-solid fa-chevron-right btn-arrow"></i>
                 </a>
-
-                <!-- Buzón de sugerencias -->
-                <a href="https://wa.me/584265809270?text=Hola%20Grupo%20Saron%2C%20tengo%20una%20sugerencia%20para%20ustedes%20%F0%9F%92%8C"
-                    target="_blank" class="link-btn" id="btn-sugerencias">
+                <a href="https://wa.me/584265809270?text=Hola%20Grupo%20Sar%C3%B3n%2C%20tengo%20una%20sugerencia%20para%20ustedes%20%F0%9F%92%8C" target="_blank" class="link-btn" id="btn-sugerencias">
                     <div class="btn-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
-                    <span class="btn-text">Buzón de sugerencias</span>
+                    <span class="btn-text">Buz&#243;n de sugerencias</span>
                     <i class="fa-solid fa-chevron-right btn-arrow"></i>
                 </a>
-
             </main>
-
-            <!-- Footer -->
             <footer class="page-footer">
                 <a href="https://picodeweb.vercel.app" target="_blank" class="picode-badge">
                     Creado por <b>PICode</b> <i class="fa-solid fa-heart"></i>
                 </a>
             </footer>
-
         </div>
     </div>
-
     <script>
-        // Share button
         const shareBtn = document.getElementById('share-btn');
         shareBtn.addEventListener('click', async () => {
             if (navigator.share) {
-                try {
-                    await navigator.share({
-                        title: 'Grupo Sar�n | Agrupación Musical',
-                        text: '🎵 Música que eleva y transforma corazones',
-                        url: window.location.href,
-                    });
-                } catch (err) { /* user cancelled */ }
+                try { await navigator.share({ title: 'Grupo Sar\u00f3n', url: window.location.href }); } catch(e){}
             } else {
                 navigator.clipboard.writeText(window.location.href);
                 shareBtn.innerHTML = '<i class="fa-solid fa-check"></i>';
-                setTimeout(() => {
-                    shareBtn.innerHTML = '<i class="fa-solid fa-arrow-up-from-bracket"></i>';
-                }, 2000);
+                setTimeout(() => { shareBtn.innerHTML = '<i class="fa-solid fa-arrow-up-from-bracket"></i>'; }, 2000);
             }
         });
     </script>
