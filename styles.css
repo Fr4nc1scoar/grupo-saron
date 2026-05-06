@@ -2,17 +2,17 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 :root {
-    --pink:       #ff1493;
-    --pink-light: #ff69b4;
-    --pink-deep:  #c7006e;
+    --pink:       #c9116e;
+    --pink-light: #e0609a;
+    --pink-deep:  #9a0052;
     --rose:       #ffe0f0;
     --dark:       #1a0018;
     --dark-card:  #2a0028;
     --text:       #ffffff;
-    --text-muted: #ffb3d9;
-    --border:     rgba(255, 20, 147, 0.30);
-    --shadow:     0 8px 32px rgba(255, 20, 147, 0.25);
-    --gradient:   linear-gradient(135deg, #ff1493, #ff69b4);
+    --text-muted: #e0b0c8;
+    --border:     rgba(201, 17, 110, 0.30);
+    --shadow:     0 8px 32px rgba(201, 17, 110, 0.22);
+    --gradient:   linear-gradient(135deg, #c9116e, #e0609a);
 }
 
 html, body {
