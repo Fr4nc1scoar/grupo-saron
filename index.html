@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -50,18 +50,18 @@
                     <a href="https://www.instagram.com/gruposaron_4?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="social-icon instagram" aria-label="Instagram">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
-                    <a href="https://wa.me/584265809270?text=Hola%20Grupo%20Sar%C3%B3n" target="_blank" class="social-icon whatsapp" aria-label="WhatsApp">
+                    <a href="#" onclick="openWA('Hola Grupo Sarón 🎵'); return false;" class="social-icon whatsapp" aria-label="WhatsApp">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
                 </div>
             </header>
             <main class="links-section">
-                <a href="https://wa.me/584265809270?text=Hola%20Grupo%20Sar%C3%B3n%2C%20me%20gustar%C3%ADa%20consultar%20sobre%20contrataci%C3%B3n%20para%20un%20evento%20%F0%9F%8E%B5" target="_blank" class="link-btn highlight-btn" id="btn-booking">
+                <a href="#" onclick="openWA('Hola Grupo Sarón, me gustaría consultar sobre contratación para un evento 🎵🙏'); return false;" class="link-btn highlight-btn" id="btn-booking">
                     <div class="btn-icon"><i class="fa-solid fa-calendar-check"></i></div>
                     <span class="btn-text">Contrataciones</span>
                     <i class="fa-solid fa-chevron-right btn-arrow"></i>
                 </a>
-                <a href="https://wa.me/584265809270?text=Hola%20Grupo%20Sar%C3%B3n%2C%20me%20gustar%C3%ADa%20proponer%20una%20colaboraci%C3%B3n%20musical%20%F0%9F%8E%B6" target="_blank" class="link-btn" id="btn-colaboraciones">
+                <a href="#" onclick="openWA('Hola Grupo Sarón, me gustaría proponer una colaboración musical 🎶✨'); return false;" class="link-btn" id="btn-colaboraciones">
                     <div class="btn-icon"><i class="fa-solid fa-handshake"></i></div>
                     <span class="btn-text">Colaboraciones</span>
                     <i class="fa-solid fa-chevron-right btn-arrow"></i>
@@ -71,7 +71,7 @@
                     <span class="btn-text">S&#237;guenos en Instagram</span>
                     <i class="fa-solid fa-chevron-right btn-arrow"></i>
                 </a>
-                <a href="https://wa.me/584265809270?text=Hola%20Grupo%20Sar%C3%B3n%2C%20tengo%20una%20sugerencia%20para%20ustedes%20%F0%9F%92%8C" target="_blank" class="link-btn" id="btn-sugerencias">
+                <a href="#" onclick="openWA('Hola Grupo Sarón, tengo una sugerencia para ustedes 💌'); return false;" class="link-btn" id="btn-sugerencias">
                     <div class="btn-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
                     <span class="btn-text">Buz&#243;n de sugerencias</span>
                     <i class="fa-solid fa-chevron-right btn-arrow"></i>
@@ -85,6 +85,11 @@
         </div>
     </div>
     <script>
+        function openWA(msg) {
+            const encoded = encodeURIComponent(msg);
+            window.open('https://wa.me/584265809270?text=' + encoded, '_blank');
+        }
+
         const shareBtn = document.getElementById('share-btn');
         shareBtn.addEventListener('click', async () => {
             if (navigator.share) {
